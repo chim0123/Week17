@@ -22,6 +22,7 @@ This program monitors simulated device temperature readings. It classify each re
 2. Type: `python device_monitor.py` (On macOS or Linux, type: `python3 device_monitor.py`)
 
 ## Sample Output
+```text
 SIMULATED DEVICE MONITORING SYSTEM
 ----------------------------------
 [1] View Readings
@@ -45,9 +46,11 @@ WARNING  : 2 (40.00%)
 CRITICAL : 1 (20.00%)
 
 Overall Status: ATTENTION REQUIRED
+```
 
 ## Test Cases
-I performed 10 tests. 10 passed and 0 failed. Full details is located in test_cases.md.
+I performed 10 tests. 10 passed and 0 failed.  
+Full details is located in [test_cases.md](test_cases.md).
 
 ## Known Limitations
 - Stored data are lost when the program closes because file handling or database are not used.
