@@ -18,4 +18,4 @@ Date: October 12, 2026
 
 ## Bugs Found and Fixed
 - **Bug Found:** During testing the boundaries, a bandwidth value of `35` return `CRITICAL` instead of `WARNING`.
-- **How Fixed:** I change the comparison operator inside `check_traffic_tier()` from `<` into `<=` to make the upper limits inclusive.
+- **How Fixed:** I change the comparison operator inside `check_traffic_tier()` from `<` into `<=` to make the upper limits inclusive. 
