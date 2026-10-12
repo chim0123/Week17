@@ -57,3 +57,4 @@ Full details is located in [test_cases.md](test_cases.md).
 
 ## Reflection
 The hardest part of this project is implementing manual loop loops to compute totals and boundaries instead of using built-in function like `min()`. I successfully fixed a boundary bug where a value of 35 goes to CRITICAL instead of WARNING. This exercise help me understand logic design and inputs validation.
+ 
